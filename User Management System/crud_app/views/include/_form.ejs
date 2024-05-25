@@ -1,0 +1,51 @@
+<!-- form handling -->
+<form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <lable for="name" class="text-light">Registration_No</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="R.No" value="" placeholder="IT21704420">
+        </div>
+        <div class="form-group">
+            <lable for="name" class="text-light">Full_Name</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="f.name" value="" placeholder="Priyanka Jesuratnam">
+        </div>
+        <div class="form-group">
+            <lable for="email" class="text-light">Email</lable>
+            <input type="text" name="email" value="" placeholder="priya@gmail.com">
+        </div>
+        <div class="form-group">
+            <lable for="name" class="text-light">Branch</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="branch" value="" placeholder="colombo">
+        </div>
+        <div class="form-group">
+            <lable for="name" class="text-light">CGPA</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="cgpa" value="" placeholder="3.5">
+        </div>
+        <div class="form-group">
+            <label for="gender" class="text-light">Gender</label>
+            <div class="radio inline">
+
+                <input type="radio" id="radio-2" name="gender" value="Male"> 
+                <label for="radio-2" class="radio-label">Male</label>
+            </div>
+
+            <div class="radio inline">
+
+                <input type="radio" id="radio-3" name="gender" value="Female"> 
+                <label for="radio-3" class="radio-label">Female</label>
+            </div>
+            
+        </div>
+
+        
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+        
+</div>
+
+</form>
