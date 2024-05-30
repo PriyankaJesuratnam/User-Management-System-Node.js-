@@ -21,7 +21,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/user-management-system-nodejs.git
+   git clone https://github.com/PriyankaJesuratnam/User-Management-System-Node.js-.git
    cd user-management-system-nodejs
    ```
 
